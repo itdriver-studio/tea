@@ -1,0 +1,111 @@
+@import 'reset';
+@import 'fonts';
+
+body {
+    color: #151618;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.5;
+    font-family: 'OpenSans-Regular';
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1240px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.header {
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        min-height: 140px;
+        padding: 30px 0;
+    }
+}
+
+.menu {
+    &__list {
+        display: flex;
+        align-items: center;
+        gap: 0 65px;
+        margin-left: 85px;
+    }
+}
+
+.user-actions {
+    display: flex;
+    align-items: center;
+    gap: 0 20px;
+
+    &__item {
+        &-search {
+            margin-left: 80px;
+        }
+    }
+}
+
+.top {
+    background-image: url(../images/top-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+
+    &__inner {
+        min-height: 500px;
+        color: #fff;
+        font-family: 'Cormorant-Regular';
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+
+    &__title {
+        font-size: 60px;
+        margin-bottom: 20px;
+        line-height: 1;
+        max-width: 780px;
+        font-weight: 400;
+    }
+
+    &__text {
+        font-size: 24px;
+        margin-bottom: 48px;
+        max-width: 557px;
+        line-height: normal;
+    }
+}
+
+.blockqoute {
+
+    &__text {
+        text-align: center;
+        font-family: 'Cormorant-LightItalic';
+        font-size: 40px;
+        max-width: 704px;
+        margin: 150px auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import 'media';
