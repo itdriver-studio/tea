@@ -1,0 +1,133 @@
+@media(max-width:1000px) {
+    .top {
+        background-position: left center;
+    }
+
+    .header__inner {
+        min-height: auto;
+    }
+
+    .menu {
+        margin-right: auto;
+
+        &__list {
+            margin-left: 60px;
+        }
+    }
+
+    .user-actions__item-search {
+        margin-left: 30px;
+    }
+
+    .blockqoute__text {
+        margin-top: 120px;
+        margin-bottom: 135px;
+    }
+}
+
+@media(max-width:860px) {
+    .menu {
+        order: -1;
+        margin-right: 0;
+
+        &__list {
+            display: none;
+        }
+
+        &__btn {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            border: none;
+            background-color: transparent;
+        }
+    }
+
+
+
+    .logo {
+        margin-left: auto;
+        margin-right: auto;
+        transform: translateX(22px);
+    }
+}
+
+@media(max-width:768px) {
+    .header__inner {
+        padding-left: 64px;
+        padding-right: 64px;
+        max-height: 165px;
+    }
+
+    .blockqoute__text {
+        max-width: 640px;
+    }
+}
+
+@media(max-width:680px) {
+    .container {
+        padding: 0 10px;
+    }
+
+    .header__inner {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .top__title {
+        font-size: 40px;
+    }
+
+    .blockqoute__text {
+        font-size: 16px;
+        max-width: 376px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+}
+
+@media(max-width:480px) {
+    .logo img {
+        width: 39px;
+    }
+
+    .header__inner {
+        padding-top: 10px;
+        padding-bottom: 5px;
+        max-height: 76px;
+    }
+
+    .top__text {
+        line-height: normal;
+    }
+}
+
+@media(max-width:360px) {
+    .user-actions__item-search {
+        margin-left: 0px;
+    }
+
+    .logo {
+        transform: translateX(15px);
+    }
+
+    .top__inner {
+        min-height: 367px;
+    }
+
+    .top__title {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .top__text {
+        font-size: 13px;
+        margin-bottom: 30px;
+    }
+
+    .blockqoute__text {
+        max-width: 340px;
+        margin-top: 70px;
+        margin-bottom: 80px;
+    }
+}
