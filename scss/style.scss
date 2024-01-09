@@ -10,6 +10,21 @@ body {
     position: relative;
 }
 
+html,
+body {
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex-grow: 1;
+}
+
 button {
     cursor: pointer;
     background-color: transparent;
@@ -386,6 +401,69 @@ button {
             }
         }
     }
+
+    &__contacts {
+        &-text {
+            font-size: 13px;
+            margin-bottom: 20px;
+            font-family: 'OpenSans-Light';
+        }
+    }
+
+    &__nav {
+        display: flex;
+        flex-wrap: wrap;
+
+        &-logo {
+            margin-right: 40px;
+        }
+
+        &-phone,
+        .footer__nav-email {
+            font-size: 13px;
+            position: relative;
+            padding-left: 32px;
+            display: block;
+            margin-bottom: 20px;
+        }
+
+        &-contacts {
+            margin-top: 20px;
+        }
+    }
+
+    &__social {
+        margin-top: 40px;
+        margin-left: 97px;
+
+        &-list {
+            display: flex;
+            align-items: center;
+            gap: 0 20px;
+        }
+
+        &-link {
+            display: grid;
+        }
+    }
+}
+
+.footer__nav-phone::before,
+.footer__nav-email::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 22px;
+    height: 16px;
+    background-image: url(../images/icons/footer/mail.svg);
+}
+
+.footer__nav-phone::before {
+    background-image: url(../images/icons/footer/phone.svg);
+    width: 21px;
+    height: 21px;
+    top: 2px;
+
 }
 
 .footer__company-item {
