@@ -10,6 +10,10 @@ body {
     position: relative;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 html,
 body {
     height: 100%;
@@ -333,6 +337,7 @@ button {
 }
 
 .prioritise {
+    padding: 50px 0;
     &__list {
         text-align: center;
         display: flex;
@@ -551,6 +556,10 @@ button {
         height: 2px;
         width: 100%;
     }
+}
+
+.noscroll {
+    overflow: hidden;
 }
 
 @import 'media';
