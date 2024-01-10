@@ -19,5 +19,4 @@ menuList.addEventListener('click', () => {
     menuList.classList.remove('menu__list--open');
     menuShadow.classList.remove('menu--open');
     document.body.classList.remove('noscroll');
-
 })

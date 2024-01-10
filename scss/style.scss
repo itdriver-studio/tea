@@ -338,6 +338,7 @@ button {
 
 .prioritise {
     padding: 50px 0;
+
     &__list {
         text-align: center;
         display: flex;
@@ -560,6 +561,7 @@ button {
 
 .noscroll {
     overflow: hidden;
+    position: fixed;
 }
 
 @import 'media';
